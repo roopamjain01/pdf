@@ -68,7 +68,7 @@ class Backend extends Container implements BackendInterface
 			}
 			else
 			{
-				$bin = __DIR__.'/../../../../bin/phantomjs';
+				$bin = __DIR__.'/../../../../../bin/phantomjs';
 			}
 
 			if (!is_executable($bin))
